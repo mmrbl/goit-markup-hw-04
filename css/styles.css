@@ -146,6 +146,16 @@ header {
     background-color: #2F303A;
     text-align: center;
 
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/webstudio/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 600px;
+
     padding-top: 200px;
     padding-bottom: 200px;
 }
