@@ -137,7 +137,23 @@ header {
     letter-spacing: 0.02em;
 
     text-decoration: none;
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
+    fill: var(--secondary-text-color);
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--hover-focus-color);
+    fill: var(--hover-focus-color);
 }
 
 /* Герой */
