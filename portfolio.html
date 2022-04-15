@@ -24,18 +24,32 @@
 
                 <ul class="pages list">
                     <li class="page"><a class="nav-link hover-color" href="./index.html">Студия</a></li>
-                    <li class="page"><a class="nav-link hover-color  current" href="./portfolio.html">Портфолио</a></li>
+                    <li class="page"><a class="nav-link hover-color current" href="./portfolio.html">Портфолио</a></li>
                     <li class="page"><a class="nav-link hover-color" href="">Контакты</a></li>
                 </ul>
 
             </nav>
             <ul class="contacts list">
                 <li class="contact">
-                    <a class="contact-link hover-color" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="contact-link hover-color" href="mailto:info@devstudio.com">
+                        <div class="contact-section">
+                            <svg class="contact-icon icon" width="16px" height="12px">
+                                <use href="./images/svg/symbol-defs.svg#mail"></use>
+                            </svg>
+                            info@devstudio.com
+                        </div>
+                    </a>
                 </li>
 
                 <li class="contact">
-                    <a class="contact-link hover-color" href="tel:+380961111111">+38 096 111 11 11</a>
+                    <a class="contact-link hover-color" href="tel:+380961111111">
+                        <div class="contact-section">
+                            <svg class="contact-icon icon" width="10px" height="16px">
+                                <use href="./images/svg/symbol-defs.svg#smartphone"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </div>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -136,21 +150,69 @@
 
     <!-- Подвал -->
     <footer>
-        <div class="container">
-            <a class="footer-logo hover-color" href="./index.html"><span class="blue-text">Web</span>Studio</a>
-            <address>
-                <ul class="address-list list">
-                    <li class="address"><a class="footer-address hover-color"
-                            href="https://goo.gl/maps/xgKNqcMdcs3EZ4Po8" target="_blank" rel="noopener noreferrer">г.
-                            Киев,
-                            пр-т Леси Украинки, 26</a>
+        <div class="container footer">
+            <div class="address-nav">
+                <a class="footer-logo hover-color" href="./index.html"><span class="blue-text">Web</span>Studio</a>
+                <address>
+                    <ul class="address-list list">
+                        <li class="address"><a class="footer-address hover-color"
+                                href="https://goo.gl/maps/xgKNqcMdcs3EZ4Po8" target="_blank"
+                                rel="noopener noreferrer">г.
+                                Киев,
+                                пр-т Леси Украинки, 26</a>
+                        </li>
+                        <li class="address"><a class="footer-mail hover-color"
+                                href="mailto:info@example.com">info@example.com</a></li>
+                        <li class="address"><a class="footer-tel hover-color" href="tel:+380991111111">+38 099 111 11
+                                11</a></li>
+                    </ul>
+                </address>
+            </div>
+
+            <div class="footer-join">
+                <h1 class="join-title">Присоединяйтесь</h1>
+                <ul class="join-list list">
+                    <li class="join-item">
+                        <a class="join-link" type="button" href="https://www.instagram.com/" target="_blank"
+                            rel="noopener noreferrer" class="hover-color">
+                            <div class="join-icon">
+                                <svg class="join-icon" width="20" height="20">
+                                    <use href="./images/svg/symbol-defs.svg#instagram"></use>
+                                </svg>
+                            </div>
+                        </a>
                     </li>
-                    <li class="address"><a class="footer-mail hover-color"
-                            href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="address"><a class="footer-tel hover-color" href="tel:+380991111111">+38 099 111 11
-                            11</a></li>
+                    <li class="join-item">
+                        <a class="join-link" type="button" href="https://twitter.com/" target="_blank"
+                            rel="noopener noreferrer" class="hover-color">
+                            <div class="join-icon">
+                                <svg class="join-icon" width="20" height="20">
+                                    <use href="./images/svg/symbol-defs.svg#twitter"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="join-item">
+                        <a class="join-link" type="button" href="https://facebook.com/" target="_blank"
+                            rel="noopener noreferrer" class="hover-color">
+                            <div class="join-icon">
+                                <svg class="join-icon" width="20" height="20">
+                                    <use href="./images/svg/symbol-defs.svg#facebook"></use>
+                                </svg>
+                            </div>
+                        </a </li>
+                    <li class="join-item">
+                        <a class="join-link" type="button" href="https://ua.linkedin.com/" target="_blank"
+                            rel="noopener noreferrer" class="hover-color">
+                            <div class="join-icons">
+                                <svg class="join-icon" width="20" height="20">
+                                    <use href="./images/svg/symbol-defs.svg#linkedin"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
-            </address>
+            </div>
         </div>
     </footer>
 </body>
