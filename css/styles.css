@@ -13,6 +13,7 @@
     --secondary-text-color: #757575;
     --hover-focus-color: #2196F3;
     --white-text-color: #ffffff;
+    --primary-icon-color: #AFB1B8;
     --card-gap: 30px;
 }
 
@@ -356,6 +357,32 @@ header {
     margin-top: 0;
 }
 
+.teammate-join {
+    margin-top: 16px;
+}
+
+.teammate-join-list {
+    display: flex;
+    margin: 0 32px;
+    justify-content: space-between;
+}
+
+.teammate-join-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: var(--primary-icon-color);
+}
+
+.teammate-join-link:hover,
+.teammate-join-link:focus {
+    background-color: var(--hover-focus-color);
+    fill: var(--white-text-color);
+}
+
 /* вторая страница */
 
 .hover-color:hover,
@@ -465,6 +492,10 @@ footer {
     background-color: #2F303A;
 }
 
+.footer {
+    display: flex;
+}
+
 .footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
@@ -506,4 +537,44 @@ footer {
 
 .address-list .address+.address {
     margin-top: 9px;
+}
+
+.footer-join {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.join-title {
+    color: var(--white-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.join-list {
+    display: flex;
+    margin-top: 20px;
+}
+
+.join-list .join-item+.join-item {
+    margin-left: 10px;
+}
+
+.join-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--white-text-color);
+}
+
+.join-link:hover,
+.join-link:focus {
+    background-color: var(--hover-focus-color);
 }
