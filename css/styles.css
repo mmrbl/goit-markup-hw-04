@@ -550,6 +550,7 @@ footer {
 
 .footer {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-logo {
@@ -597,7 +598,6 @@ footer {
 
 .footer-join {
     margin-left: 70px;
-    margin-top: 10px;
 }
 
 .join-title {
